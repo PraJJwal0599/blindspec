@@ -1,0 +1,31 @@
+# Personal AI harness files - kept local, never committed to this public repo
+CLAUDE.md
+AGENTS.md
+.harness/
+
+# Secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+htmlcov/
+mutants/
+
+# Claude Code worktrees
+.claude/worktrees/
